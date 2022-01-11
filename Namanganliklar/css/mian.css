@@ -1,0 +1,376 @@
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local(''),
+    url('../fonts/rubik-v14-latin_cyrillic-regular.woff2') format('woff2'),
+    url('../fonts/rubik-v14-latin_cyrillic-regular.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/rubik-v14-latin_cyrillic-500.woff2') format('woff2'), 
+    url('../fonts/rubik-v14-latin_cyrillic-500.woff') format('woff'); 
+}
+
+.sarlavha-qismi{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0000);
+}
+
+
+
+
+
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Rubik','arial', sans-serif ;
+    
+}
+
+img{
+    vertical-align: middle;
+}
+
+.container{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+
+.header{
+    background-color: rgb(246,246,249);
+    
+}
+
+.header-container{
+    background-color:rgb(246,246,249);
+    
+}
+
+.header-tg-img{
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.header-tg-img:hover{
+    border: 2px solid black;
+    text-decoration: underline;
+}
+
+.headertop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 68px;
+    margin-top: 45px;
+    margin-right: 385px;
+    
+    
+}
+
+.header-logo-link{
+    margin-right: 17px;
+    border: 3px solid transparent ;
+}
+
+.header-logo-link:hover{
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.header-list-item{
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header-symbol{
+    margin-right: 5px;
+    color: #285193;
+}
+
+.header-left-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.hero-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 68px;
+}
+
+.link-item{
+    
+    text-decoration: none;
+    color:black;
+    margin-right: 50px;
+    
+}
+
+.hero-contener{
+    background-color: white;
+    
+}
+
+.sekshin-img{
+    
+    width: 1240px;
+}
+
+
+.statestik-ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+.statestik{
+    display: flex;
+    text-align: center;
+    width: 1200px;
+    height: 133px;
+}
+
+.vertikal{
+    width: 2px;
+    height: 74px;
+    align-items: center;
+    margin-top: 30px;
+    background-color: red;
+    
+}
+
+.vertikal2{
+    width: 2px;
+    height: 50px;
+    align-items: center;
+    margin-top: 40px;
+    background-color:#F4CCD1;
+    
+}
+
+.statestik-li{
+    margin-right: 10px;
+}
+
+/* rasm qismi */
+.contenir-rasm-qismi{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+/* 1 */
+.rasm-urab-turadi{
+    list-style-type: none;
+    
+    
+}
+.rasm1-item{
+    Width:360px; 
+    border-radius: 5px;
+    margin-bottom: 11px;
+    
+}
+.rasm1-sarlavha{
+    Width:360px;
+    height: 42px; 
+    Font:Rubik;  
+    font-style: normal;
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 18px;
+}
+.time-date{
+    widows: 125px;
+    height: 19px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400px;
+    color: #6B6D97;
+    margin-bottom: 18px;
+}
+/* 2 */
+.rasm-urab-turadi2{
+    list-style-type: none;
+    
+    
+}
+.rasm1-item2{
+    Width:360px; 
+    border-radius: 5px;
+    margin-bottom: 11px;
+    
+}
+.rasm1-sarlavha2{
+    Width:360px;
+    height: 42px; 
+    Font:Rubik;  
+    font-style: normal;
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 18px;
+}
+.time-date2{
+    widows: 125px;
+    height: 19px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400px;
+    color: #6B6D97;
+    margin-bottom: 18px;
+}
+/* 3 */
+.rasm-urab-turadi3{
+    list-style-type: none;
+    
+    
+}
+.rasm1-item3{
+    Width:360px; 
+    border-radius: 5px;
+    margin-bottom: 11px;
+    
+}
+.rasm1-sarlavha3{
+    Width:360px;
+    height: 42px; 
+    Font:Rubik;  
+    font-style: normal;
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 18px;
+}
+.time-date3{
+    widows: 125px;
+    height: 19px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400px;
+    color: #6B6D97;
+    margin-bottom: 18px;
+}
+/* 4 */
+.rasm-urab-turadi4{
+    list-style-type: none;
+    
+    
+}
+.rasm1-item4{
+    Width:360px; 
+    border-radius: 5px;
+    margin-bottom: 11px;
+    
+}
+.rasm1-sarlavha4{
+    Width:360px;
+    height: 42px; 
+    Font:Rubik;  
+    font-style: normal;
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 18px;
+}
+.time-date4{
+    widows: 125px;
+    height: 19px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400px;
+    color: #6B6D97;
+    margin-bottom: 18px;
+}
+/* 5 */
+.rasm-urab-turadi5{
+    list-style-type: none;
+    
+    
+}
+.rasm1-item5{
+    Width:360px; 
+    border-radius: 5px;
+    margin-bottom: 11px;
+    
+}
+.rasm1-sarlavha5{
+    Width:360px;
+    height: 42px; 
+    Font:Rubik;  
+    font-style: normal;
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 18px;
+}
+.time-date5{
+    widows: 125px;
+    height: 19px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400px;
+    color: #6B6D97;
+    margin-bottom: 18px;
+}
+/* 6 */
+.rasm-urab-turadi6{
+    list-style-type: none;
+    
+    
+}
+.rasm1-item6{
+    Width:360px; 
+    border-radius: 5px;
+    margin-bottom: 11px;
+    
+}
+.rasm1-sarlavha6{
+    Width:360px;
+    height: 42px; 
+    Font:Rubik;  
+    font-style: normal;
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 18px;
+}
+.time-date6{
+    widows: 125px;
+    height: 19px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400px;
+    color: #6B6D97;
+    margin-bottom: 18px;
+}
